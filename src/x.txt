@@ -1,0 +1,27 @@
+<div style="display:flex;flex-direction: column;justify-content: space-between;margin-left: 100px;padding-top:100px;">
+            <div class="patient-login" style="margin:10px;padding:20px;background-color:white;width:400px;height:250px;">
+                <div style="margin-left:120px"><h2>Patient Login</h2></div>
+                <hr>
+                <div>
+                    <form action="/login" method="post">
+                        <label for="patient-id">Patient ID:</label><br>
+                        <input type="text" id="patient-id" name="patient-id"><br>
+                        <label for="address">Address:</label><br>
+                        <input type="password" id="password" name="password"><br><br>
+                        <input style="margin:10px;border-radius: 20px;border-width:1px;height:30px;width:100px; background-color: aqua;" type="submit" value="LOGIN">
+                        <button style="margin:20px;border-radius: 20px;border-width:1px;height:30px;width:100px; background-color: rgb(56, 105, 105);">Register</button>
+                    </form>
+                </div>
+            </div>
+            <div class="doctor-login" style="margin:10px;padding:20px;background-color:white;width:400px;height:250px;">
+                <div style="margin-left:120px"><h2>Doctor Login</h2></div>
+                <hr>
+                <form action="/login" method="post">
+                    <label for="Doctor-id">Doctor ID:</label><br>
+                    <input type="text" id="patient-id" name="patient-id"><br>
+                    <label for="address">Address:</label><br>
+                    <input type="password" id="password" name="password"><br><br>
+                    <input style="margin:10px;border-radius: 20px;border-width:1px;height:30px;width:100px; background-color: aqua;" type="submit" value="LOGIN">
+                </form>
+            </div>
+        </div>
